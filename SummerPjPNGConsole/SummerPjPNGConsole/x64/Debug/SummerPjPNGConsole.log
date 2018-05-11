@@ -1,0 +1,27 @@
+﻿  readpng.cpp
+c:\users\katya\documents\visual studio 2015\projects\summerpjpngconsole\summerpjpngconsole\readpng.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\katya\documents\visual studio 2015\projects\summerpjpngconsole\summerpjpngconsole\readpng.cpp(104): warning C4715: 'read_png_file': not all control paths return a value
+readpng.obj : error LNK2019: unresolved external symbol png_set_sig_bytes referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_sig_cmp referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_create_read_struct referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_set_longjmp_fn referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_create_info_struct referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_read_info referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_read_image referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_destroy_read_struct referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_init_io referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_malloc referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_valid referenced in function "int __cdecl get_bgcolor(unsigned char *,unsigned char *,unsigned char *)" (?get_bgcolor@@YAHPEAE00@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_set_rows referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_image_width referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_image_height referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_bit_depth referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_color_type referenced in function "int __cdecl read_png_file(char *)" (?read_png_file@@YAHPEAD@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_bKGD referenced in function "int __cdecl get_bgcolor(unsigned char *,unsigned char *,unsigned char *)" (?get_bgcolor@@YAHPEAE00@Z)
+readpng.obj : error LNK2019: unresolved external symbol png_get_header_ver referenced in function "void __cdecl readpng_version_info(void)" (?readpng_version_info@@YAXXZ)
+C:\dev\lib\libpng.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\dev\lib\libpngd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\dev\lib\zlibstatd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\dev\lib\zlibstat.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Katya\Documents\Visual Studio 2015\Projects\SummerPjPNGConsole\x64\Debug\SummerPjPNGConsole.exe : fatal error LNK1120: 18 unresolved externals
